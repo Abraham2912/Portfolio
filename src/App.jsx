@@ -1,6 +1,6 @@
 import './App.css'
 import { Header } from './components/Header.jsx'
-import imagen from  'assets/cara.jpeg'
+import imagen from  './assets/Cara.jpeg'
 import { Experiencia } from './components/Experiencia.jsx'
 import { Enlace } from './components/Enlace.jsx'
 import linkedin from './assets/linkedin-svgrepo-com.svg'
