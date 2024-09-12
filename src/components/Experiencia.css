@@ -1,0 +1,33 @@
+.experiencia-content{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.experiencia-puesto{
+    width:100%;
+}
+.experiencia-descripcion{
+    width:100%;
+
+}
+.marcador{
+    width: 5%;
+    font-size: 40px;
+    color: #EAC435;
+    display: none;
+}
+@media (768px < width )
+{
+    .experiencia-content{
+        flex-direction:row;
+    }
+    .experiencia-puesto{
+        width: 40%;
+    }
+    .experiencia-descripcion{
+        width: 60%;
+    }
+    .marcador{
+        display: block;
+    }
+}

@@ -1,0 +1,21 @@
+header{
+    background-color: #23252d;
+    border-radius: 15px ;
+    display: block;
+    width:max-content;
+    padding: 5px;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 0px 1px rgba(255, 255, 255, 0.2 );
+}
+.Header-Enlace{
+    transition: color 0.2s;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.Header-Enlace:hover{
+    color: #EAC435;
+}

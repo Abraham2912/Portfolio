@@ -1,0 +1,19 @@
+.enlace-content{
+    background-color: #1F2937;
+    width: fit-content;
+    padding: 3px 15px ;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    box-shadow: 0 0 0px 1px rgba(255, 255, 255, 0.2 );
+    transition: all 0.2s;
+}
+.enlace-content:hover{
+    background-color: #EAC435;
+    box-shadow: 0 0 10px 7px rgba(255, 255, 255, 0.2 );
+}
+.enlace-icono{
+    width: 1em;
+    margin-right: 10px;
+}
